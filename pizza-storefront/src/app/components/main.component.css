@@ -1,0 +1,50 @@
+.ml-1vw {
+  margin-left: 1vw;
+}
+
+.space-around {
+  margin: 5px;
+}
+
+.justify-right {
+  float: right;
+}
+
+.box-it {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px gray solid;
+}
+
+.ml-10px {
+  margin-left: 10px;
+}
+
+tr {
+  height: 7vh;
+}
+
+.banner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner > h2 {
+  font-size: 3em;
+  color: gray;
+  text-decoration: underline;
+}
+
+.banner > button {
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin-right: 20px;
+}
+
+.banner > img {
+  height: 6vh;
+  width: auto;
+  margin-right: 1vw;
+}
+

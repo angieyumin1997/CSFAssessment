@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="banner">
+        <img src="/assets/pizza.png" alt="">
+        <h2>Pizza Factory</h2>
+      </div>
+
+      <h1>Orders for {{email}}</h1>
+
+      <table *ngFor="let o of orderSummaries">
+        <td>
+            <tr>
+                <h1>Order Id :</h1> {{ o.orderId }}
+            </tr>
+            <tr>
+                <h1>Amount:</h1> ${{ o.amount }}
+            </tr>
+        </td>
+      </table>
+
+      <button [routerLink]="['/']">Back to Ordering</button>
+
+     
+</body>
+</html>
